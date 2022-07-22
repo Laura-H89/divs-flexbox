@@ -108,12 +108,32 @@ body {
   height: 100%;
 }
 
+header {
+    color: white;
+    font-weight: 700;
+    font-size: 3em;
+    font-family: 'Lora', serif;
+}
+
+p {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+span {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: pink;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: rgb(96, 93, 93) 1px solid;
 }
 
 .div-1, .div-2, .div-3 {
@@ -133,7 +153,9 @@ body {
     padding-right: 30px;
 }
 
-
+footer {
+    border-top: rgb(96, 93, 93) 1px solid;
+}
 
 
 /* ==========================================================================
